@@ -50,7 +50,7 @@ while True:
         attempts += 1
 
         if not checknumber(guessNumber):
-            print('Selecione um numero válido')
+            print('Select a valid number!')
             continue
         result = checkluck(int(guessNumber), randomNumber)
         if result == 0:
